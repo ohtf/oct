@@ -44,11 +44,21 @@ def log_term_creation(identifier):
     terms_dir = get_terms_directory()
     log_path = terms_dir / "terms"
 
-    timestamp = datetime.now().replace(microsecond=0).isoformat()
+    timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
     log_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Guard against a log whose last entry lacks a trailing newline, which
+    # would otherwise merge two entries onto one line.
+    needs_separator = (
+        log_path.exists()
+        and log_path.stat().st_size > 0
+        and not log_path.read_bytes().endswith(b"\n")
+    )
+
     with log_path.open("a", encoding="utf-8") as log_file:
+        if needs_separator:
+            log_file.write("\n")
         log_file.write(f"{timestamp} {identifier}\n")
 
 

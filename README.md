@@ -3,6 +3,8 @@
 <!-- UNHIDE THIS WHEN WE HAVE MORE THAN 0 SPONSORS :-) <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/bawmedical">
  -->
 
+`oct` is a [Foundation Project](https://openhealthtechnology.org/projects/#oct-open-clinical-terminology) of the [Open Health Technology Foundation (OHTF)](https://openhealthtechnology.org/), which manages the project. The canonical repository is [github.com/ohtf/oct](https://github.com/ohtf/oct).
+
 If you believe in what we are trying to achieve with Open Clinical Terminology (`oct`) please consider [sponsoring](https://github.com/sponsors/bawmedical) the project so that we can have team members working on the project full-time. 
 
 ## Overview
@@ -146,7 +148,7 @@ In case of disputes, decisions default to the principle of **maximising openness
 
 - Forks may not use the names _“Open Clinical Terminology”_, _“`oct`”_, or the official logo without written permission, which can be obtained by contacting the maintainers.
 
-- The canonical version is maintained under the `openterminology` organisation and represented by the Steering Committee.
+- The canonical version is maintained under the [`ohtf`](https://github.com/ohtf) GitHub organisation, managed by the Open Health Technology Foundation, and represented by the Steering Committee.
 
 - Transparent governance and visible contributor credit ensure the community recognises the authentic lineage of the project.
 
@@ -160,9 +162,13 @@ They must:
 
 Collaborations that benefit the open ecosystem are actively encouraged through open governance participation. We welcome contributions from commercial entities that align with `oct`'s open principles.
 
-## Future Foundation <kbd>[RFC](#rfcs)</kbd>
+## Foundation
 
-Copyright 2022-2025 Baw Medical Ltd. Baw Medical currently acts as the legal custodian and owner of `oct`, stewarding the assets on behalf of the community. The long-term intention is to establish a non-profit **`oct` Foundation** to act as the legal vehicle for all intellectual property—clinical terms, code, graphs, trademarks, domain names, and governance documents. The foundation may be created specifically for `oct` or use an existing trusted organisation. Until that transition is complete, Baw Medical will continue to hold the assets and governance responsibilities as custodian, with Dr Marcus Baw serving as BDFL.
+`oct` is managed by the **[Open Health Technology Foundation (OHTF)](https://openhealthtechnology.org/)**, a neutral, long-term home for open-source health software. The legal entity is Open Health Technology CIC, a community interest company registered in England and Wales. This fulfils the project's long-standing intention to place `oct` under a non-profit foundation rather than any single company, using an existing trusted organisation instead of a foundation created specifically for `oct`. `oct` follows OHTF [governance](https://openhealthtechnology.org/governance/) and its [project lifecycle](https://openhealthtechnology.org/governance/project-lifecycle/), where it is currently at the Incubating stage.
+
+Copyright in existing content (2022-2026) remains as recorded in each file's SPDX header, held by Dr Marcus Baw and Baw Medical Ltd. Dr Marcus Baw continues as project lead.
+
+Major project announcements are also published on the OHTF website, [openhealthtechnology.org](https://openhealthtechnology.org/), and to the [OHTF mailing list](https://openhealthhub.org/t/open-health-technology-foundation-cic-start-here-join-the-mailing-list/3094).
 
 ## Use of AI/LLMs <kbd>[RFC](#rfcs)</kbd>
 

@@ -9,6 +9,8 @@ Open Clinical Terminology (`oct`) is an open, community-driven clinical terminol
 
 This file is the entry point for AI coding agents. Read it before changing anything.
 
+`oct` is a Foundation Project managed by the [Open Health Technology Foundation (OHTF)](https://openhealthtechnology.org/) (legal entity: Open Health Technology CIC). The canonical repository is [github.com/ohtf/oct](https://github.com/ohtf/oct); the old `openterminology/oct` address redirects there.
+
 ## Read first
 
 - [README.md](README.md) - public overview, governance, and licensing (much of it RFC-tagged).
@@ -51,6 +53,12 @@ When the Rust CLI lands, the usual `cargo fmt --all --check`, `cargo clippy --al
 
 - Review the diff and run the applicable checks after agent changes; a green build is not evidence a terminology decision is correct.
 - Terminology content is high-consequence: validate provenance and licence compatibility against an authoritative human source, never against model output. External content contributions need the `R12` Contributor Covenant/CLA gate before merge.
+
+## Governance and announcements
+
+- `oct` follows OHTF [governance](https://openhealthtechnology.org/governance/) and its [project lifecycle](https://openhealthtechnology.org/governance/project-lifecycle/).
+- **Major announcements must also be published on the OHTF website** ([openhealthtechnology.org](https://openhealthtechnology.org/)), not only in this repo. Examples: releases, lifecycle-stage changes, governance or licensing changes, and significant partnerships such as the SNOMED convergence work ([spec/snomed-convergence.md](spec/snomed-convergence.md)). The website is updated through PRs to [ohtf/openhealthtechnology.org-website](https://github.com/ohtf/openhealthtechnology.org-website). The project entry lives in `docs/projects/index.md`.
+- When a change in this repo deserves an announcement, say so and offer to draft the website PR. Opening it is an externally visible action, so it needs approval (below).
 
 ## Approval required
 
